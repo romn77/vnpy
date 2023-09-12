@@ -38,3 +38,8 @@ def run(engine: ScriptEngine):
 
         # 等待3秒进入下一轮
         sleep(3)
+
+
+if __name__ == '__main__':
+    engine = ScriptEngine()
+    run(engine)

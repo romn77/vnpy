@@ -67,7 +67,7 @@ def main_terminal():
 
 if __name__ == "__main__":
     # Run in GUI mode
-    # main_ui()
+    main_ui()
 
     # Run in CLI mode
     main_terminal()
