@@ -23,15 +23,15 @@ class BestLimitAlgo(AlgoTemplate):
     ]
 
     def __init__(
-        self,
-        algo_engine: BaseEngine,
-        algo_name: str,
-        vt_symbol: str,
-        direction: str,
-        offset: str,
-        price: float,
-        volume: float,
-        setting: dict
+            self,
+            algo_engine: BaseEngine,
+            algo_name: str,
+            vt_symbol: str,
+            direction: str,
+            offset: str,
+            price: float,
+            volume: float,
+            setting: dict
     ) -> None:
         """构造函数"""
         super().__init__(algo_engine, algo_name, vt_symbol, direction, offset, price, volume, setting)

@@ -52,6 +52,7 @@ class MainEngine:
 
     def __init__(self, event_engine: EventEngine = None) -> None:
         """"""
+        # 检查是否有 EventEngine 传入,没有则初始化一个默认的 EventEngine 对象
         if event_engine:
             self.event_engine: EventEngine = event_engine
         else:
